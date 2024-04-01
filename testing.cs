@@ -15,7 +15,7 @@ var distances = items
 		return distances
 			.Select(i => i.Item)
 			.ToList();
-	}
+	}//nice
 
 	/// <summary>
 	/// Calculates the distance from the borders of an <see cref="Envelope"/>
