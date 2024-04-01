@@ -8,7 +8,7 @@ var distances = items
 
 		if (predicate != null)
 			distances = distances.Where(i => predicate(i.Item));
-
+//yes
 		if (k > 0)
 			distances = distances.Take(k);
 
